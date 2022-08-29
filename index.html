@@ -1,0 +1,90 @@
+<!--https://youtu.be/nyOrgo8JkyA-->
+
+<html>
+<link rel="stylesheet" href="fortnitebattlepass.css">
+
+<head>
+<title>genkwa</title>
+ <link rel="icon" type="image/x-icon" href="images\favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div id="header">
+<h1 class="big"><a href="home.html" class="big">genkwa</a></h1>
+</div>
+
+<nav>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">navigation</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="home.html">home</a>
+    <a href="about.html">about</a>
+    <a href="blog.html">blog</a>
+    <a href="projects.html">projects</a>
+    <a href="sitemap.html">sitemap</a>
+    <a href="contact.html">contact</a>
+  </div>
+</div>
+</nav>
+
+<div id="container">
+<div class="flex">
+
+	<div id="main">
+	<center><img src="images/lilguy.png"></center>
+
+		<div id="mini">
+		<h2 text align="center">hi i'm flos</h2>
+		<p>Welcome to my  website! I'm Flos. This is a personal website, meant for me to log anything that I've worked on or have been up to. I am often working on art, sewing/embroidery, and motion graphic projects. I will probably talk about stuff like video games and mundane stuff. If that sounds great then click on any link to enter. If it doesn't sound great you can leave now.</p>
+		<h4 align="center">art above by my friend <a href="https://twitter.com/merrodi" class="normal">merr</a>!</h4>
+		<h3 align="center">LATEST PROJECT</h3>
+		<ul>
+		<li>08.15.22: <a href="florenceshimeji.html" class="normal">Florence Shimeji</a></li>
+		</ul>
+		<h5 align="center">this webpage's launch date was: 08.28.22!!</h5>
+		</div>
+
+	</div>
+
+
+	<ul id="right">
+	<li><a href="home.html" class="big2">home<a></p>
+	<li><a href="about.html" class="big2">about</a></p>
+	<li><a href="blog.html" class="big2">blog</a></p>
+	<li><a href="projects.html" class="big2">projects</a></p>
+	<li><a href="sitemap.html" class="big2">sitemap</a></p>
+	<li><a href="contact.html" class="big2">contact</a><p>
+	</ul>
+</div>
+</div>
+
+<div id="godhelpme">
+<div id="foot">
+<p><b>**at the moment this website is optimized for screens that are 1920x1080!! this website prioritizes desktop view, so it starts to really break on devices under 300px width. i just started html so my code is really messy and i'm still learning n working it out. sorry X(</b></p>
+<p>YES my code is abysmal. we exist.</p>
+</div>
+</div>
+</body>
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</html>
