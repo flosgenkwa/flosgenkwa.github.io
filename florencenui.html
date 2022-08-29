@@ -1,0 +1,86 @@
+<html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+<title>genkwa</title>
+ <link rel="icon" type="image/x-icon" href="images\favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<div id="header2">
+<h1><a href="home.html" class="big">genkwa</a></h1>
+</div>
+
+<body>
+
+<nav>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">navigation</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="home.html">home</a>
+    <a href="#"><b><i>about</b></i></a>
+    <a href="blog.html">blog</a>
+    <a href="projects.html">projects</a>
+    <a href="sitemap.html">sitemap</a>
+    <a href="contact.html">contact</a>
+  </div>
+</div>
+</nav>
+
+<div id="container">
+<div class="flex">
+
+<div id="navbar">
+<p><a href="home.html" class="big2">home</a></p>
+<p><a href="about.html" class="big2">ABOUT</a></p>
+<p><a href="blog.html" class="big2">blog</a></p>
+<p><a href="projects.html" class="big2">projects</a></p>
+<p><a href="sitemap.html" class="big2">sitemap</a></p>
+<p><a href="contact.html" class="big2">contact</a></p>
+</div>
+
+<div id="box">
+<h1 text align="center">florence nui florence nui</h1>
+
+<div style="text-align:center;">
+<p>This is my little guy I made him at May. I would share the pattern but tbh I'm not completely satisfied with it, so I want to adjust it a little (I'll adjust the pattern while making xofleur) and then maybe I can post it?!?!
+<br>I'm very bad at making clothes for him so I usually just buy him clothes... He's a 15cm plush so it's a little bit hard to find clothes for him cause most clothes are 20cm. Buy him some clothes if you give a shit about me.</p>
+<div class="logimg">
+<img src="images/fnui01.jpg">
+<img src="images/fnui02.jpg">
+<img src="images/fnui03.jpg">
+<img src="images/fnui04.JPG">
+</div>
+</div>
+<br>
+<h4 text align="center"><a href="projects.html" class="normal"><< BACK</a></h4>
+
+</div>
+
+
+</div>
+</div>
+
+</body>
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+</html>
