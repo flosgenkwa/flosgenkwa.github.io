@@ -1,0 +1,115 @@
+<html>
+<link rel="stylesheet" href="style.css">
+
+
+<head>
+<title>genkwa</title>
+ <link rel="icon" type="image/x-icon" href="images\favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<div id="header2">
+<h1><a href="home.html" class="big">genkwa</a></h1>
+</div>
+
+<body>
+
+<nav>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">navigation</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="home.html">home</a>
+    <a href="about.html">about</a>
+    <a href="#"><i><b>blog</i></b></a>
+    <a href="projects.html">projects</a>
+    <a href="sitemap.html">sitemap</a>
+    <a href="contact.html">contact</a>
+  </div>
+</div>
+</nav>
+
+<div id="container">
+<div class="flex">
+
+
+<div id="blognavbar">
+<p><a href="home.html" class="big2">home</a></p>
+<p><a href="about.html" class="big2">about</a></p>
+<p><a href="blog.html" class="big2">BLOG</a></p>
+<p><a href="projects.html" class="big2">projects</a></p>
+<p><a href="sitemap.html" class="big2">sitemap</a></p>
+<p><a href="contact.html" class="big2">contact</a></p>
+</div>
+
+<div id="bloglog">
+
+<div class="tabs">
+  <input type="radio" class="tabs__radio" name="entry" id="top" checked>
+  <label for="top" class="tabs__label"><span class="txthover"><h3 align="center">TOP</h3></span></label>
+  <div class="tabs__content">
+  <div id="blogbox">
+      <h1 text align="center">blog</h1>
+      <p>My private diary had recently become a thing for bigger, huge updates due to my inconsistency at updating it. I intend to just write short little things here. Or maybe longer little things. These entries couldn't possibly be longer than the ones in my personal diary though. I'm not sure how frequently I'll update this though, since I'm so bad at updating my other journal. While I imagine coding in my entries would probably be more effort, I hope I can use these for dumb, menial updates from time to time.
+      </p>
+      <p>Click on "TOP" on the sidebar to return back to this tab specifically!</p>
+      <br>
+      <p>Ya I know this page is scuffed on mobile I AM AWARE!!</p>
+  </div>
+  </div>
+<h4>LATEST POST</h4>
+  <input type="radio" class="tabs__radio" name="entry" id="052322-2">
+  <label for="052322-2" class="tabs__label"><span class="txthover">(08/28): #1 LAUNCH!!</span></label>
+  <div class="tabs__content">
+  <div id="blogbox">
+<h1 text align="center">LAUNCH!!</h1>
+<p>This is the official(? I might pull back lol) launch of my public website! I have been working on this website slowly for a couple of months now. It doesn't look that way cause this website's so simple. But yea. I'm just slow and lazy but also extremely particular about certain things.</p>
+<p>I don't know what pushed me to make a website, but a few months ago I deleted my twitter and since then I haven't been super active on any social media. I could honestly live without it, but also, I do like to share things from time to time. Or at least, get the satisfaction of posting something. To be honest I don't care if people see it or not. I thought it would be easier to share things if I had an entire site just dedicated to me doing so and that way no one would accidentally stumble onto me? You would deliberately have to type this URL to find me. So basically, you deliberately came here to read my bad opinions. You can only be mad at yourself.
+<br>I think with having a website I'm just a bit harder to find and I prefer it that way.</p>
+<p>I'm hoping I can post stuff here that I'm alright with posting? I don't know, I'm not too proud of most things I post so I wonder if this site will even go anywhere… For the moment though, I just wanted to get this site up and running since it's been in the back of my mind for months. It's ready now though.</p>
+<p>There's a lot of things I gotta fix up I'm sure but for now I'm fine with this site. To be honest, I got kinda tired of the theme already since I have been staring at it for a few months, but I can't restart that's too much effort.</p>
+<p>I wanna log at least some stuff before the launch of this site on here too just so I have something, but it might be a while until I actually get to it. I don't think I do a lot of things, but it's still kinda a pain to look at everything I've done and decided if I want to post it or not.</p>
+<p>But yeaaa that's all I have to say for now. I still gotta work on other aspects of this site so I will stop here.</p>
+
+  </div>
+  </div>
+<h4>PAST POSTS</h4>
+  <input type="radio" class="tabs__radio" name="entry" id="DATEHERE">
+  <label for="DATEHERE" class="tabs__label"><span class="txthover">no entries yet <:3</span></label>
+  <div class="tabs__content">
+  <div id="blogbox">
+      <h1 text align="center">TITLE HERE</h1>
+      <p>contents here</p>
+  </div>
+  </div>
+
+</div>
+
+</div>
+
+
+
+</div>
+</div>
+
+</body>
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</html>

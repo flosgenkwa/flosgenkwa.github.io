@@ -1,0 +1,83 @@
+<html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+<title>genkwa</title>
+ <link rel="icon" type="image/x-icon" href="images\favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<div id="header2">
+<h1><a href="home.html" class="big">genkwa</a></h1>
+</div>
+
+<body>
+
+<nav>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">navigation</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="home.html">home</a>
+    <a href="#"><b><i>about</b></i></a>
+    <a href="blog.html">blog</a>
+    <a href="projects.html">projects</a>
+    <a href="sitemap.html">sitemap</a>
+    <a href="contact.html">contact</a>
+  </div>
+</div>
+</nav>
+
+<div id="container">
+<div class="flex">
+
+<div id="navbar">
+<p><a href="home.html" class="big2">home</a></p>
+<p><a href="about.html" class="big2">ABOUT</a></p>
+<p><a href="blog.html" class="big2">blog</a></p>
+<p><a href="projects.html" class="big2">projects</a></p>
+<p><a href="sitemap.html" class="big2">sitemap</a></p>
+<p><a href="contact.html" class="big2">contact</a></p>
+</div>
+
+<div id="box">
+<h1 text align="center">shimeji</h1>
+
+<div style="text-align:center;">
+<img src="images/shimeji.gif">
+<p>I made this guy earlier in August. For the longest time java didn't work with my computer or at least that's what I thought (even though Minecraft runs fine), but it's because my downloads folder is in a different SSD since the space there is bigger lol. I've always wanted to make a Shimeji but I never did cause I could never get it to work. After being stubborn about wanting to run Minecraft mods, I found out about the problem and then proceeded to make him...
+<br>He's really cute I like him. You can clearly see some errors if you let him be for a while, but it's for personal use so no one will ever see this and to be honest I don't mind it.</p>
+<img src="images/shimeji02.png">
+</div>
+
+<br>
+<h4 text align="center"><a href="projects.html" class="normal"><< BACK</a></h4>
+
+</div>
+
+
+</div>
+</div>
+
+</body>
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+</html>
