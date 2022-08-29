@@ -229,6 +229,7 @@ height: 10px;
 
   body {
     overflow-x: hidden;
+    overflow-y: hidden;
     font-family: 'Helvetica', 'Arial', sans-serif;
   }
 body::-webkit-scrollbar {
