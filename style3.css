@@ -12,6 +12,7 @@ font-family: 'Helvetica', 'Arial', sans-serif;
 .big {
 text-decoration: none;
 color: #FFAA90;
+font-size: 90px;
 }
 
 .big:visited {
@@ -28,6 +29,27 @@ color: #FFAA90;
 text-decoration: underline;
 color: #FFAA90;
 }
+
+.big2 {
+text-decoration: none;
+color: #FFAA90;
+}
+
+.big2:visited {
+text-decoration: none;
+color: #FFAA90;
+}
+
+.big2:hover {
+text-decoration: underline;
+color: #FFAA90;
+}
+
+.big2:active {
+text-decoration: underline;
+color: #FFAA90;
+}
+
 
 /*spacing here so i don't get confused lollll*/
 
@@ -276,6 +298,73 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+#dialoguebox {
+margin-top: 5px;
+padding: 3px;
+}
+
+#dialogue {
+}
+
+.double {
+    max-width: 100%;
+    padding: 0px;
+    width: 100%;
+    margin-top: 5px;
+    padding-right: 5px;
+}
+
+#icon {
+width: 120px;
+padding-top: 5px;
+}
+.icon {
+border-radius: 15px;
+}
+
+#flobubble {
+background-color: #FFA1A1;
+border-radius: 30px;
+padding: 10px;
+max-height: 500px;
+margin-left: 3%;
+margin-top: 5px;
+}
+
+#flebubble {
+background-color: #E59090;
+border-radius: 30px;
+padding: 10px;
+max-height: 500px;
+margin-left: 3%;
+margin-top: 5px;
+}
+
+#xobubble {
+background-color: #8CD586;
+border-radius: 30px;
+padding: 10px;
+max-height: 500px;
+margin-left: 3%;
+margin-top: 5px;
+}
+
+#words {
+width: 100%;
+}
+
+.flowhisper {
+color: #ffd6d6;
+}
+
+.flewhisper {
+color: #c56767;
+}
+
+.xowhisper {
+color: #5a9361;
 }
 
 .btn {
