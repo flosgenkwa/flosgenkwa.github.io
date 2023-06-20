@@ -13,6 +13,10 @@ background-color: #F8C168;
   font-family: 'UD Digi Kyokasho N-R'
 }
 
+@font-face {
+    font-family: "UD Digi Kyokasho N-R";
+    src: url("flosgenkwa.github.io/blob/main/UDDIGIKYOKASHON-R.TTC");
+}
 
 .big {
 text-decoration: none;
