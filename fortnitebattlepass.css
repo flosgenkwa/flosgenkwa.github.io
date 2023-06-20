@@ -4,6 +4,11 @@ overflow-x: auto;
 overflow-y: overlay
 }
 
+@font-face {
+    font-family: "UDDigiKyokashoNR";
+    src: url("UDDIGIKYOKASHON-R.TTC") format('truetype');
+}
+
 body {
   background-image: url("https://cdn.discordapp.com/attachments/365304454490095647/1114849583403634718/image.png");
 background-size: cover;
@@ -11,11 +16,6 @@ background-position: center;
 background-color: #F8C168;
   background-position-y: -166px;
   font-family: 'UDDigiKyokashoNR'
-}
-
-@font-face {
-    font-family: "UDDigiKyokashoNR";
-    src: url("UDDIGIKYOKASHON-R.TTC");
 }
 
 .big {
