@@ -10,11 +10,11 @@ background-size: cover;
 background-position: center;
 background-color: #F8C168;
   background-position-y: -166px;
-  font-family: 'UD Digi Kyokasho N-R'
+  font-family: 'UDDigiKyokashoNR'
 }
 
 @font-face {
-    font-family: "UD Digi Kyokasho N-R";
+    font-family: "UDDigiKyokashoNR";
     src: url("UDDIGIKYOKASHON-R.TTC");
 }
 
